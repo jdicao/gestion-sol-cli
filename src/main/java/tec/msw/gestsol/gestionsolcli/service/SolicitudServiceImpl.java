@@ -63,7 +63,7 @@ public class SolicitudServiceImpl implements SolicitudService{
             return "No se pueden eliminar solicitudes en proceso";
         }
         solicitudRepository.delete(solicitudDB);
-        return "Solicitud eliminada correctamente";
+        return "";
     }
 
     @Override
