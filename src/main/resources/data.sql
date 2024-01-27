@@ -114,6 +114,8 @@ insert into TCL_PROYECTO_CLIENTE(id_producto,id_cliente,descripcion,fecha_inicio
 values(1,1,'Proyecto Dynamics GP 2023','2023-01-01','A');
 insert into TCL_PROYECTO_CLIENTE(id_producto,id_cliente,descripcion,fecha_inicio,estado)
 values(2,1,'Proyecto Sinergy','2023-01-01','A');
+insert into TCL_PROYECTO_CLIENTE(id_producto,id_cliente,descripcion,fecha_inicio,estado)
+values(3,1,'Proyecto Business Central','2024-01-01','A');
 
 
 --insert into TMS_TIPO_SOLICITUD(id_tipo_solicitud,descripcion,estado,fecha_actualizacion,usuario_actualizacion) values(1,'Bug','A','2023-08-08','admin');
@@ -129,3 +131,7 @@ insert into TMS_TIPO_SOLICITUD(descripcion,estado,fecha_actualizacion,usuario_ac
 
 insert into TCL_PLAN_CLIENTE(id_proyecto_cliente,descripcion,horas_contratadas,horas_consumidas,valor_hora,fecha_contratacion,usuaro_registro)
 values(1,'Plan de soporte Dynamics GP - Agosto 2023',20,0,70,'2023-08-01','admin');
+insert into TCL_PLAN_CLIENTE(id_proyecto_cliente,descripcion,horas_contratadas,horas_consumidas,valor_hora,fecha_contratacion,usuaro_registro)
+values(2,'Plan de soporte Sinergy - Agosto 2023',10,2,50,'2023-10-01','admin');
+insert into TCL_PLAN_CLIENTE(id_proyecto_cliente,descripcion,horas_contratadas,horas_consumidas,valor_hora,fecha_contratacion,usuaro_registro)
+values(3,'Plan de soporte BC - Enero 2024',30,0,100,'2024-01-01','admin');
